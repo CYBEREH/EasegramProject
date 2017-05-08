@@ -1,7 +1,7 @@
 # EasegramProject
 This is Easegram Project
 <br>![Easegram Logo](/Graphics/espost_mainlogo1.png)
-<br>Catch likes of instagram posts using this simple hacktool.
+<br>Catch likes of instagram posts using this simple hacktool.<br>
 [Program forum topic](https://forum.soft98.ir/showthread.php?t=80623)
 
 ### Similar programs
