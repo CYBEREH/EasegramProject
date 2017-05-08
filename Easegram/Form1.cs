@@ -9,6 +9,8 @@ using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using System.Diagnostics;
+using System.Reflection;
 // Coded By CYBER EH
 // Soft98.ir
 //Beta 1.P2
@@ -33,6 +35,12 @@ namespace WindowsFormsApplication33
             panel2.Top = 0; panel2.Left = 0;
 
             //End of forms state
+
+            //Set Programs Assembly Informations
+
+            this.Text = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name + " [Beta " + FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).ProductVersion + "]";
+            toolTip1.SetToolTip(pictureBox1, System.Reflection.Assembly.GetExecutingAssembly().GetName().Name + " [Beta " + FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).ProductVersion + "]");
+            //End of Assembly Informations
 
 
             this.MaximizeBox = false;

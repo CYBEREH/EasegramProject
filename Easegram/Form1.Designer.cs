@@ -85,7 +85,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(152, 130);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.toolTip1.SetToolTip(this.pictureBox1, "Easegram [Beta 1.4.2]");
+            this.toolTip1.SetToolTip(this.pictureBox1, "Easegram [Beta 1.4.3]");
             // 
             // toolTip1
             // 
@@ -531,7 +531,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(709, 525);
+            this.ClientSize = new System.Drawing.Size(309, 525);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -539,7 +539,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Easegram [Beta 1.4.2]";
+            this.Text = "Easegram [Beta 1.4.3]";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
