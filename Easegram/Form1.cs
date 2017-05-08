@@ -235,14 +235,14 @@ namespace WindowsFormsApplication33
         {
             check_radio();
             Link_Name = "RU1";
-            Link_Server = "http://ru1media.cf/add?id=";
+            Link_Server = "http://ru2media.cf/add?id=";
         }
 
         private void radio_us1_CheckedChanged(object sender, EventArgs e)
         {
             check_radio();
             Link_Name = "US1";
-            Link_Server = "http://us1media.cf/add?id=";
+            Link_Server = "http://us2media.cf/add?id=";
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -294,6 +294,7 @@ namespace WindowsFormsApplication33
         {
             userid_field.Clear();
             postid_field.Clear();
+            lbl_DM_Status.BackColor = Color.Gray;
             label3.Visible = false;
             clear_userid.Visible = false;
             clear_userid.Enabled = false;
@@ -390,5 +391,9 @@ namespace WindowsFormsApplication33
             getPageSource(clp);
         }
 
+        private void WebGitHub_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/CYBEREH/EasegramProject");
+        }
     }
 }

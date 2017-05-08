@@ -53,6 +53,7 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.clear_userid = new System.Windows.Forms.Label();
+            this.WebGitHub = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.Post_Panel1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -94,10 +95,11 @@
             // Web_Topic
             // 
             this.Web_Topic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Web_Topic.Location = new System.Drawing.Point(267, 472);
+            this.Web_Topic.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Web_Topic.Location = new System.Drawing.Point(215, 495);
             this.Web_Topic.Name = "Web_Topic";
-            this.Web_Topic.Size = new System.Drawing.Size(29, 30);
-            this.Web_Topic.TabIndex = 5;
+            this.Web_Topic.Size = new System.Drawing.Size(20, 24);
+            this.Web_Topic.TabIndex = 8;
             this.Web_Topic.Text = "?";
             this.toolTip1.SetToolTip(this.Web_Topic, "View topic on the web");
             this.Web_Topic.UseVisualStyleBackColor = true;
@@ -136,7 +138,7 @@
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(261, 45);
             this.trackBar1.SmallChange = 5;
-            this.trackBar1.TabIndex = 3;
+            this.trackBar1.TabIndex = 13;
             this.toolTip1.SetToolTip(this.trackBar1, "Average hits on target post");
             this.trackBar1.Value = 5;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
@@ -163,7 +165,7 @@
             this.radio_ru1.Location = new System.Drawing.Point(16, 28);
             this.radio_ru1.Name = "radio_ru1";
             this.radio_ru1.Size = new System.Drawing.Size(50, 21);
-            this.radio_ru1.TabIndex = 1;
+            this.radio_ru1.TabIndex = 11;
             this.radio_ru1.Text = "RU1";
             this.radio_ru1.UseVisualStyleBackColor = true;
             this.radio_ru1.CheckedChanged += new System.EventHandler(this.radio_ru1_CheckedChanged);
@@ -175,7 +177,7 @@
             this.radio_us1.Location = new System.Drawing.Point(16, 55);
             this.radio_us1.Name = "radio_us1";
             this.radio_us1.Size = new System.Drawing.Size(49, 21);
-            this.radio_us1.TabIndex = 2;
+            this.radio_us1.TabIndex = 12;
             this.radio_us1.Text = "US1";
             this.radio_us1.UseVisualStyleBackColor = true;
             this.radio_us1.CheckedChanged += new System.EventHandler(this.radio_us1_CheckedChanged);
@@ -187,7 +189,7 @@
             this.linkLabel1.Location = new System.Drawing.Point(12, 473);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(62, 13);
-            this.linkLabel1.TabIndex = 6;
+            this.linkLabel1.TabIndex = 9;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "[CYBER EH]";
             this.toolTip1.SetToolTip(this.linkLabel1, "Contact on Telegram Messenger");
@@ -200,7 +202,7 @@
             this.linkLabel2.Location = new System.Drawing.Point(18, 495);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(50, 13);
-            this.linkLabel2.TabIndex = 7;
+            this.linkLabel2.TabIndex = 10;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "[Saleh.k]";
             this.toolTip1.SetToolTip(this.linkLabel2, "Contact on Telegram Messenger");
@@ -247,7 +249,7 @@
             this.userid_field.MaxLength = 10;
             this.userid_field.Name = "userid_field";
             this.userid_field.Size = new System.Drawing.Size(144, 23);
-            this.userid_field.TabIndex = 12;
+            this.userid_field.TabIndex = 4;
             this.toolTip1.SetToolTip(this.userid_field, "Add \"owner_user_id\" value");
             this.userid_field.TextChanged += new System.EventHandler(this.userid_field_TextChanged);
             this.userid_field.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.userid_field_KeyPress);
@@ -261,7 +263,7 @@
             this.postid_field.MaxLength = 19;
             this.postid_field.Name = "postid_field";
             this.postid_field.Size = new System.Drawing.Size(144, 23);
-            this.postid_field.TabIndex = 13;
+            this.postid_field.TabIndex = 5;
             this.toolTip1.SetToolTip(this.postid_field, "Add Single \"media?id\" value");
             this.postid_field.TextChanged += new System.EventHandler(this.postid_field_TextChanged);
             this.postid_field.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.postid_field_KeyPress);
@@ -273,7 +275,7 @@
             this.MPL_Button.Location = new System.Drawing.Point(244, 427);
             this.MPL_Button.Name = "MPL_Button";
             this.MPL_Button.Size = new System.Drawing.Size(42, 23);
-            this.MPL_Button.TabIndex = 15;
+            this.MPL_Button.TabIndex = 6;
             this.MPL_Button.Text = "MPL";
             this.toolTip1.SetToolTip(this.MPL_Button, "Add Multiple \"media?id\" value\r\nAvailable Soon\r\n");
             this.MPL_Button.UseVisualStyleBackColor = true;
@@ -298,7 +300,7 @@
             this.CLP_Controller.Location = new System.Drawing.Point(25, 9);
             this.CLP_Controller.Name = "CLP_Controller";
             this.CLP_Controller.Size = new System.Drawing.Size(103, 23);
-            this.CLP_Controller.TabIndex = 19;
+            this.CLP_Controller.TabIndex = 2;
             this.CLP_Controller.Text = "Click To Paste!";
             this.toolTip1.SetToolTip(this.CLP_Controller, "Just copy post URL, and then click here!");
             this.CLP_Controller.UseVisualStyleBackColor = false;
@@ -323,7 +325,7 @@
             this.radioButton2.Location = new System.Drawing.Point(5, 87);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(90, 17);
-            this.radioButton2.TabIndex = 18;
+            this.radioButton2.TabIndex = 3;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Inspect Mode";
             this.toolTip1.SetToolTip(this.radioButton2, "Enter elements manually");
@@ -336,7 +338,7 @@
             this.radioButton1.Location = new System.Drawing.Point(5, 30);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(83, 17);
-            this.radioButton1.TabIndex = 17;
+            this.radioButton1.TabIndex = 1;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Direct Mode";
             this.toolTip1.SetToolTip(this.radioButton1, "Fetch elements directly from target post");
@@ -359,6 +361,19 @@
             this.clear_userid.Visible = false;
             this.clear_userid.Click += new System.EventHandler(this.clear_userid_Click);
             // 
+            // WebGitHub
+            // 
+            this.WebGitHub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.WebGitHub.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WebGitHub.Location = new System.Drawing.Point(238, 495);
+            this.WebGitHub.Name = "WebGitHub";
+            this.WebGitHub.Size = new System.Drawing.Size(68, 24);
+            this.WebGitHub.TabIndex = 7;
+            this.WebGitHub.Text = "GitHub";
+            this.toolTip1.SetToolTip(this.WebGitHub, "View topic on the web");
+            this.WebGitHub.UseVisualStyleBackColor = true;
+            this.WebGitHub.Click += new System.EventHandler(this.WebGitHub_Click);
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -379,13 +394,14 @@
             this.Post_Panel1.Location = new System.Drawing.Point(120, 439);
             this.Post_Panel1.Name = "Post_Panel1";
             this.Post_Panel1.Size = new System.Drawing.Size(79, 36);
-            this.Post_Panel1.TabIndex = 4;
+            this.Post_Panel1.TabIndex = 6;
             this.Post_Panel1.Text = "Configure";
             this.Post_Panel1.UseVisualStyleBackColor = true;
             this.Post_Panel1.Click += new System.EventHandler(this.Post_Panel1_Click);
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.WebGitHub);
             this.panel1.Controls.Add(this.groupBox3);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.clear_userid);
@@ -490,7 +506,7 @@
             this.Send_Panel2.Location = new System.Drawing.Point(109, 445);
             this.Send_Panel2.Name = "Send_Panel2";
             this.Send_Panel2.Size = new System.Drawing.Size(90, 30);
-            this.Send_Panel2.TabIndex = 4;
+            this.Send_Panel2.TabIndex = 14;
             this.Send_Panel2.Text = "Commit!";
             this.Send_Panel2.UseVisualStyleBackColor = true;
             this.Send_Panel2.Click += new System.EventHandler(this.Send_Panel2_Click);
@@ -514,6 +530,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(709, 525);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
@@ -582,6 +599,7 @@
         private System.Windows.Forms.Button CLP_Controller;
         private System.Windows.Forms.Label lbl_DM_Status;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button WebGitHub;
     }
 }
 
